@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "RD Agent - India Post",
+    "slug": "rd-agent-india-post",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#D32F2F"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#D32F2F"
+      },
+      "permissions": ["android.permission.INTERNET"]
+    },
+    "ios": {
+      "bundleIdentifier": "com.indiapost.rdagent"
+    },
+    "plugins": ["expo-router", "expo-secure-store"]
+  }
+}
